@@ -5,7 +5,7 @@ body {
     float: none;
     margin: auto;
     font-family: "Farro", sans-serif;
-    background-color: #DF7700
+    background-color: #F7F3E3
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -25,11 +25,11 @@ a {
     font-size: 1.1em;
     line-height: 1.3em;
     text-decoration: none;
-    color: #d42402;
+    color: #BA1B1D;
 }
 
 a:hover {
-    color:red
+    color:#272727
 }
 
 ul li {
@@ -49,7 +49,7 @@ ul li {
 }
 #nav a {
     text-decoration:none; 
-    padding:0 30px; /* variable width */
+    padding:0 30px;
 }
 
 #nav a img:hover {
@@ -65,6 +65,7 @@ ul li {
 
 .logo img {
     border-radius:10px;
+    width:100%;
 }
 
 .logo img:hover {
@@ -80,7 +81,7 @@ footer {
 }
 
 
-/*Homepage*/
+/* Homepage */
 
 main {
     float:left;
@@ -98,10 +99,10 @@ aside {
     min-height: 300px;
 }
 
-/*Font Colours*/
+/* Font Colours */
 
-#i1 {
-    color:#401c04;
+.redfont {
+    color:#272727
 }
 
 .row{
@@ -122,29 +123,71 @@ aside {
 /* Buttons */
 
 .button1 {
-	box-shadow:inset 0px 1px 0px 0px #ffdfb0;
-	background:linear-gradient(to bottom, #ffc266 5%, #c25f08 100%);
-	background-color:#ffc266;
+	box-shadow:inset 0px 1px 0px 0px #F28F3B;
+	background:linear-gradient(to bottom, #e2a03d 5%, #c25f08 100%);
+	background-color:#F28F3B;
 	border-radius:6px;
-	border:1px solid #df8e0c;
+	border:3px solid #272727;
 	display:inline-block;
 	cursor:pointer;
-	color:#333333;
-	font-family:Arial;
+	color:#272727;
+	font-family:'Staatliches', sans serif;
 	font-size:22px;
 	font-weight:bold;
 	padding:12px 30px;
 	text-decoration:none;
-	text-shadow:0px 1px 0px #ffd966;
+	text-shadow:0px 1px 0px #faa749;
 }
 
 .button1:hover {
-	background:linear-gradient(to bottom, #c25f08 5%, #ffc266 100%);
+	background:linear-gradient(to bottom, #c25f08 5%, #d39b48 100%);
 	background-color:#c25f08;
-    color:#333333
+    color:#272727
 }
 
 .button1:active {
 	position:relative;
 	top:1px;
 }
+
+.button2 {
+    background: #F28F3B;
+    background-image: -webkit-linear-gradient(top, #F28F3B, #EF6100);
+    background-image: -moz-linear-gradient(top, #F28F3B, #EF6100);
+    background-image: -ms-linear-gradient(top, #F28F3B, #EF6100);
+    background-image: -o-linear-gradient(top, #F28F3B, #EF6100);
+    background-image: -webkit-gradient(to bottom, #F28F3B, #EF6100);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    line-height: 10px;
+    color: #272727;
+    font-family: 'Staatliches', sans serif; 
+    font-size: 250%;
+    font-weight: 100;
+    padding: 40px;
+    -webkit-box-shadow: 1px 1px 20px 0 #272727;
+    -moz-box-shadow: 1px 1px 20px 0 #272727;
+    box-shadow: 1px 1px 20px 0 #272727;
+    text-shadow: 1px 1px 4px #272727;
+    border: solid #272727 14px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    align-items: center;
+ }
+ 
+ .button2:hover {
+    border: solid #272727 14px;
+    background: #D75C08;
+    background-image: -webkit-linear-gradient(top, #D75C08, #FDA66A);
+    background-image: -moz-linear-gradient(top, #D75C08, #FDA66A);
+    background-image: -ms-linear-gradient(top, #D75C08, #FDA66A);
+    background-image: -o-linear-gradient(top, #D75C08, #FDA66A);
+    background-image: -webkit-gradient(to bottom, #D75C08, #FDA66A);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    text-decoration: none;
+ }
