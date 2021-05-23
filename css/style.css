@@ -1,0 +1,100 @@
+/* Global */
+
+body {
+    max-width: 760px;
+    float: none;
+    margin: auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Farro', sans-serif;
+    padding: 5px 15px 5px 15px;
+}
+
+p {
+    font-family: 'Farro', sans-serif;
+    font-size: 1.1em;
+    line-height: 1.3em;
+    padding: 15px;
+}
+
+a {
+    font-family: 'Farro', sans-serif;
+    font-size: 1.1em;
+    line-height: 1.3em;
+    text-decoration: none;
+    color: #d42402;
+}
+
+a:hover {
+    color:red
+}
+
+ul li {
+    list-style:none;
+}
+
+#nav {
+    text-align:center;
+    }
+    #nav li {
+    display:inline;
+    }
+    #nav a {
+    text-decoration:none; 
+    padding:0 30px; /* variable width */
+    }
+
+    #nav a img:hover {
+        box-shadow: 0 4px 4px 0 #401c04;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0 0 10px;
+}
+
+.logo img:hover {
+    box-shadow: 0 8px 10px 0 #401c04;
+}
+
+footer {
+    display:inline-block;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+/*Homepage*/
+
+main {
+    float:left;
+    width: 67%;
+    display: block;
+    min-height: 300px;
+}
+
+aside {
+    float:right;
+    width:28%;
+    display: block;
+    min-height: 300px;
+}
+
+/*Font Colours*/
+#i1 {
+    color:#401c04;
+}
+
+/* Mobile CSS */
+@media screen and (max-width:600px) {
+    main {
+        width: 100%;
+    }
+    aside {
+        width: 100%;
+    }
+}
