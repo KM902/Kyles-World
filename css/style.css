@@ -4,6 +4,8 @@ body {
     max-width: 760px;
     float: none;
     margin: auto;
+    font-family: "Farro", sans-serif;
+    background-color: rgb(223, 119, 0);
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -41,17 +43,17 @@ ul li {
 
 #nav {
     text-align:center;
-    }
-    #nav li {
-    display:inline;
-    }
-    #nav a {
+}
+#nav li {
+    display:inline-block;
+}
+#nav a {
     text-decoration:none; 
     padding:0 30px; /* variable width */
-    }
+}
 
-    #nav a img:hover {
-        box-shadow: 0 4px 4px 0 #401c04;
+#nav a img:hover {
+    box-shadow: 0 4px 4px 0 #401c04;
 }
 
 .logo {
@@ -61,8 +63,13 @@ ul li {
     margin: 10px 0 0 10px;
 }
 
+.logo img {
+    border-radius:10px;
+}
+
 .logo img:hover {
     box-shadow: 0 8px 10px 0 #401c04;
+    border-radius:10px;
 }
 
 footer {
@@ -94,6 +101,10 @@ aside {
     color:#401c04;
 }
 
+.row{
+    padding:2px;
+}
+
 /* Mobile CSS */
 @media screen and (max-width:600px) {
     main {
@@ -102,4 +113,31 @@ aside {
     aside {
         width: 100%;
     }
+}
+
+/* Buttons */
+.button1 {
+	box-shadow:inset 0px 1px 0px 0px #ffdfb0;
+	background:linear-gradient(to bottom, #ffc266 5%, #c25f08 100%);
+	background-color:#ffc266;
+	border-radius:6px;
+	border:1px solid #df8e0c;
+	display:inline-block;
+	cursor:pointer;
+	color:#333333;
+	font-family:Arial;
+	font-size:22px;
+	font-weight:bold;
+	padding:12px 30px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffd966;
+}
+.button1:hover {
+	background:linear-gradient(to bottom, #c25f08 5%, #ffc266 100%);
+	background-color:#c25f08;
+    color:#333333
+}
+.button1:active {
+	position:relative;
+	top:1px;
 }
