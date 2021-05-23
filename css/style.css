@@ -89,6 +89,8 @@ main {
     min-height: 300px;
 }
 
+/* Sidebar */
+
 aside {
     float:right;
     width:28%;
@@ -97,6 +99,7 @@ aside {
 }
 
 /*Font Colours*/
+
 #i1 {
     color:#401c04;
 }
@@ -106,6 +109,7 @@ aside {
 }
 
 /* Mobile CSS */
+
 @media screen and (max-width:600px) {
     main {
         width: 100%;
@@ -116,6 +120,7 @@ aside {
 }
 
 /* Buttons */
+
 .button1 {
 	box-shadow:inset 0px 1px 0px 0px #ffdfb0;
 	background:linear-gradient(to bottom, #ffc266 5%, #c25f08 100%);
@@ -132,11 +137,13 @@ aside {
 	text-decoration:none;
 	text-shadow:0px 1px 0px #ffd966;
 }
+
 .button1:hover {
 	background:linear-gradient(to bottom, #c25f08 5%, #ffc266 100%);
 	background-color:#c25f08;
     color:#333333
 }
+
 .button1:active {
 	position:relative;
 	top:1px;
