@@ -4,27 +4,27 @@ body {
     max-width: 760px;
     float: none;
     margin: auto;
-    font-family: "Farro", sans-serif;
+    font-family: "Consolas", sans-serif;
     background-color: #F7F3E3
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Farro', sans-serif;
+    font-family: 'Monaco', sans-serif;
     padding: 5px 15px 5px 15px;
 }
 
 p {
-    font-family: 'Farro', sans-serif;
+    font-family: 'Consolas', sans-serif;
     font-size: 1.1em;
     line-height: 1.3em;
     padding: 15px;
 }
 
 a {
-    font-family: 'Farro', sans-serif;
+    font-family: 'Consolas', sans-serif;
     font-size: 1.1em;
     line-height: 1.3em;
-    text-decoration: none;
+    text-decoration: none; 
     color: #BA1B1D;
 }
 
@@ -41,6 +41,8 @@ ul li {
     text-indent: 0%;
 }
 
+/* NAVBAR */
+
 #nav {
     text-align:center;
 }
@@ -55,6 +57,8 @@ ul li {
 #nav a img:hover {
     box-shadow: 0 4px 4px 0 #401c04;
 }
+
+/* Logo */
 
 .logo {
     display: flex;
@@ -73,6 +77,38 @@ ul li {
     border-radius:10px;
 }
 
+/* Curio Image */
+.curio {
+    display: flex;
+    border:1px solid #272727;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+/* Curio Cabinet Table */
+.curiotable {
+    width:100%;
+    border: 4px solid #272727;
+    border-radius: 4px;
+    padding: 10px;
+    font-size: 1.1em;
+    border-collapse: collapse;
+}
+
+td, th {
+    border: 1px solid #272727;
+    text-align: left;
+    padding: 8px;
+}
+
+/* Grey background in cells distributed evenly */
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+/* Footer */
+
 footer {
     display:inline-block;
     width: 100%;
@@ -80,11 +116,10 @@ footer {
     text-align: center;
 }
 
-
 /* Homepage */
 
 main {
-    float:left;
+    float:none;
     width: 67%;
     display: block;
     min-height: 300px;
@@ -95,8 +130,9 @@ main {
 aside {
     float:right;
     width:28%;
-    display: block;
-    min-height: 300px;
+    word-wrap:break-word;
+    min-height:300px;
+    padding:5px;
 }
 
 /* Font Colours */
@@ -105,9 +141,9 @@ aside {
     color:#272727
 }
 
-
 .row{
     padding:2px;
+    flex-wrap: wrap;
 }
 
 /* Mobile CSS */
@@ -163,7 +199,7 @@ aside {
     border-radius: 20px;
     line-height: 10px;
     color: #272727;
-    font-family: 'Staatliches', sans serif; 
+    font-family:'Staatliches', sans serif; 
     font-size: 250%;
     font-weight: 100;
     padding: 40px;
